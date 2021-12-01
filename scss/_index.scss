@@ -1,0 +1,215 @@
+/* index.html */ 
+header {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 0px;
+}
+body{
+    background-color: #d3d2d2;
+}
+h1 {
+    font-family: 'Lora', serif;
+    text-align: center;
+    font-size: 70px;
+    
+}
+
+h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px;
+    margin: 0 0 12.5px;
+    
+    
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    text-emphasis: none;
+    text-align: right;
+    display: inline;
+    
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    color: #000000;
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: 0.17px;
+    text-align: start;
+}
+
+.imagen{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    
+}
+.title{
+    background-color: rgb(6, 214, 160);
+    text-align: center;
+    margin: 40px;
+    top: 800px;
+    left: 200px;
+    animation-name:title;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+}
+/*Animacion a titulo
+@keyframes title {
+    0% {background-color: rgb(6, 214, 160);left:0px;}
+    25% {background-color:rgb(12, 176, 169);left:700px; top:0px;transform: skewY(25deg)
+    }
+    50% {background-color:rgb(17, 138, 178);left:700px; top:0px;transform: skewY(25deg)
+    }
+    75%  {background-color:rgb(12, 176, 169);left:700px; top:0px;transform: skewY(25deg)
+    }
+    100% {background-color:rgb(6, 214, 160); left:0px;}
+}*/
+
+
+.videoPrincipal {
+    margin: 40px 300px 40px 300px;
+    padding: 0px;
+    height: fit-content;
+    width: fit-content;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+section div.practise {
+    
+    border: 1px solid #d3d2d2;
+    width: 500px;
+    height: 300px;
+    padding: 30px 20px 30px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.icono {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+.icono:hover{
+    transform: scale(2);
+}
+
+.colorFondo {
+    background-color: rgba(223, 221, 221, 0.61);
+}
+
+.colorFondoNav {
+    background-color: black;
+}
+
+.imagenRead {
+    padding: 0;
+    width: 100%;
+}
+.imagen {
+    padding: 0 0 10px 0; 
+    width: 100%;
+}
+
+
+.faws {
+    border: 2px solid #d3d2d2;
+    width:400px; 
+    padding: 5px 10px 5px 10px;
+}
+
+.imgFaws{
+    margin: 0px;
+    padding: 5px 5px 5px 5px; 
+    width: 400px;
+    height: 250px;
+}
+.imgFaws:hover{
+    transform: scale(2);
+}
+
+div p {
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+#three {
+    margin: 0px;
+    padding: 10px 15px 10px 15px;
+    background-color:rgba(223, 221, 221, 0.61);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.video{
+    color: rgb(144, 190, 109);
+    padding: 10px;
+    margin: 5px;
+
+}
+.vocabulary {
+    color: rgb(67, 170, 139);
+    padding: 10px;
+    margin: 5px;
+}
+.grammarIcono {
+    color:rgb(77, 144, 142);
+    padding: 10px;
+    margin: 5px;
+}
+footer{
+    background-image: rgb(5, 5, 5);
+    width: 100%;
+    margin-top: 30px;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+}
+footer ul{
+    display: flex;
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+    font-family:'Lato', sans-serif; 
+    font-size: 30px;
+    color: white;
+    padding: 0px 50px 0px 50px;
+}
+.iconoFooter{
+    width: 50px;
+    height: 50px;
+    padding: 0px 0px 0px 100px;
+}
+
+.icono {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+.icono:hover{
+    transform: scale(2);
+}
+
+.colorFondo {
+    background-color: rgba(223, 221, 221, 0.61);
+}
+.col-sm{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
